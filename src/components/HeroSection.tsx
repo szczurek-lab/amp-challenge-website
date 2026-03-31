@@ -48,19 +48,6 @@ const HeroSection = () => (
         </div>
       </motion.div>
 
-      {/* Affiliations */}
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 0.6, duration: 0.8 }}
-        className="mt-16 flex flex-wrap items-center justify-center gap-x-8 gap-y-4"
-      >
-        <span className="text-sm font-semibold text-foreground/70 tracking-wide">Helmholtz Munich</span>
-        <span className="text-muted-foreground">·</span>
-        <span className="text-sm font-semibold text-foreground/70 tracking-wide">University of Warsaw</span>
-        <span className="text-muted-foreground">·</span>
-        <img src={logoUpenn} alt="University of Pennsylvania" className="h-8 opacity-60" />
-      </motion.div>
     </div>
   </section>
 );
