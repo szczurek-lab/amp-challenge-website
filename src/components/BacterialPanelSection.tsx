@@ -27,35 +27,35 @@ const gramPos = [
 ];
 
 const BacterialPanelSection = () => (
-  <section className="py-24 md:py-32 bg-secondary/30">
+  <section className="py-14 md:py-20 bg-secondary/30">
     <div className="section-container">
       <motion.h2
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
-        className="font-display font-bold text-3xl md:text-4xl text-center mb-4"
+        className="font-display font-bold text-2xl md:text-3xl text-center mb-2"
       >
         Official Bacterial Panel
       </motion.h2>
-      <p className="text-center text-muted-foreground mb-16">20 clinically relevant strains</p>
+      <p className="text-center text-muted-foreground text-sm mb-8">20 clinically relevant strains</p>
 
       <div className="grid md:grid-cols-2 gap-6">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="glass-card p-8"
+          className="glass-card p-5"
         >
-          <h3 className="font-display font-semibold mb-4">
-            Gram-Negative <span className="text-muted-foreground font-normal text-sm">(15 strains)</span>
+          <h3 className="font-display font-semibold text-sm mb-2">
+            Gram-Negative <span className="text-muted-foreground font-normal text-xs">(15)</span>
           </h3>
-          <ul className="space-y-2">
+          <ul className="grid grid-cols-2 gap-x-4 gap-y-0.5">
             {gramNeg.map((s) => (
-              <li key={s} className="text-sm text-surface-foreground font-mono">
+              <li key={s} className="text-xs text-surface-foreground font-mono leading-5">
                 {s.includes("[MDR]") ? (
                   <>
                     {s.replace(" [MDR]", "")}
-                    <span className="ml-2 text-xs bg-accent/15 text-accent px-1.5 py-0.5 rounded font-semibold">MDR</span>
+                    <span className="ml-1 text-[10px] bg-accent/15 text-accent px-1 py-0.5 rounded font-semibold">MDR</span>
                   </>
                 ) : s}
               </li>
@@ -68,18 +68,18 @@ const BacterialPanelSection = () => (
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ delay: 0.1 }}
-          className="glass-card p-8"
+          className="glass-card p-5"
         >
-          <h3 className="font-display font-semibold mb-4">
-            Gram-Positive <span className="text-muted-foreground font-normal text-sm">(5 strains)</span>
+          <h3 className="font-display font-semibold text-sm mb-2">
+            Gram-Positive <span className="text-muted-foreground font-normal text-xs">(5)</span>
           </h3>
-          <ul className="space-y-2">
+          <ul className="space-y-0.5">
             {gramPos.map((s) => (
-              <li key={s} className="text-sm text-surface-foreground font-mono">
+              <li key={s} className="text-xs text-surface-foreground font-mono leading-5">
                 {s.includes("[MDR]") ? (
                   <>
                     {s.replace(" [MDR]", "")}
-                    <span className="ml-2 text-xs bg-accent/15 text-accent px-1.5 py-0.5 rounded font-semibold">MDR</span>
+                    <span className="ml-1 text-[10px] bg-accent/15 text-accent px-1 py-0.5 rounded font-semibold">MDR</span>
                   </>
                 ) : s}
               </li>
