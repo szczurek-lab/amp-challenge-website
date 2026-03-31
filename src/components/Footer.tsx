@@ -7,8 +7,8 @@ const Footer = () => (
     <div className="section-container flex flex-col items-center gap-8">
       {/* Logos */}
       <div className="flex flex-wrap items-center justify-center gap-x-10 gap-y-4">
-        <img src={logoHelmholtz} alt="Helmholtz Munich" className="h-12 opacity-70 hover:opacity-100 transition-opacity" />
-        <img src={logoUW} alt="University of Warsaw" className="h-12 opacity-70 hover:opacity-100 transition-opacity" />
+        <img src={logoHelmholtz} alt="Helmholtz Munich" className="h-10 opacity-70 hover:opacity-100 transition-opacity" />
+        <img src={logoUW} alt="University of Warsaw" className="h-14 opacity-70 hover:opacity-100 transition-opacity" />
         <img src={logoUpenn} alt="University of Pennsylvania" className="h-12 opacity-70 hover:opacity-100 transition-opacity" />
       </div>
 
