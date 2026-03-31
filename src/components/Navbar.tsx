@@ -14,7 +14,7 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-lg border-b border-border/40">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-background/90 backdrop-blur-lg border-b border-border/50">
       <div className="section-container flex items-center justify-between h-16">
         <a href="#" className="font-display font-bold text-lg tracking-tight text-foreground">
           AMP Challenge <span className="text-primary">2027</span>
