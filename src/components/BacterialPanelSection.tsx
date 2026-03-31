@@ -79,7 +79,7 @@ const BacterialPanelSection = () => (
                 {s.includes("[MDR]") ? (
                   <>
                     {s.replace(" [MDR]", "")}
-                    <span className="ml-2 text-xs bg-destructive/15 text-destructive px-1.5 py-0.5 rounded">MDR</span>
+                    <span className="ml-2 text-xs bg-accent/15 text-accent px-1.5 py-0.5 rounded font-semibold">MDR</span>
                   </>
                 ) : s}
               </li>
