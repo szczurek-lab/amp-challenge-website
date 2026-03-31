@@ -20,10 +20,10 @@ const gramNeg = [
 
 const gramPos = [
   "B. subtilis ATCC 23857",
-  "S. aureus ATCC 12600",
-  "S. aureus BAA-1556 (MRSA) [MDR]",
   "E. faecalis ATCC 700802 (VRE) [MDR]",
   "E. faecium ATCC 700221 (VRE) [MDR]",
+  "S. aureus ATCC 12600",
+  "S. aureus BAA-1556 (MRSA) [MDR]",
 ];
 
 const BacterialPanelSection = () => (
