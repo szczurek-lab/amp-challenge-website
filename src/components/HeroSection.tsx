@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import heroBg from "@/assets/hero-bg.jpg";
-
+import logoUpenn from "@/assets/logo-upenn.png";
 const HeroSection = () => (
   <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
     {/* Background image */}
