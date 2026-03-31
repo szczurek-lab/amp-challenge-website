@@ -27,17 +27,17 @@ const gramPos = [
 ];
 
 const BacterialPanelSection = () => (
-  <section className="py-24 md:py-32 bg-secondary/30">
+  <section className="py-14 md:py-20 bg-secondary/30">
     <div className="section-container">
       <motion.h2
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
-        className="font-display font-bold text-3xl md:text-4xl text-center mb-4"
+        className="font-display font-bold text-2xl md:text-3xl text-center mb-2"
       >
         Official Bacterial Panel
       </motion.h2>
-      <p className="text-center text-muted-foreground mb-16">20 clinically relevant strains</p>
+      <p className="text-center text-muted-foreground text-sm mb-8">20 clinically relevant strains</p>
 
       <div className="grid md:grid-cols-2 gap-6">
         <motion.div
