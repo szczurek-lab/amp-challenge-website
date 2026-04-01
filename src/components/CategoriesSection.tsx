@@ -1,10 +1,10 @@
 import { motion } from "framer-motion";
-import { Globe, ArrowUpRight, ArrowDownRight, ShieldAlert, Activity } from "lucide-react";
+import { Globe, Plus, Minus, ShieldAlert, Activity } from "lucide-react";
 
 const categories = [
   { icon: Globe, title: "Broad-Spectrum Activity", desc: "Ranked by team average of Overall Success Rate across all 20 strains, with ties broken by MIC90." },
-  { icon: ArrowUpRight, title: "Gram-Positive Activity", desc: "Ranked by team average of Gram-positive Success Rate, with ties broken by MIC50 across Gram-positive strains." },
-  { icon: ArrowDownRight, title: "Gram-Negative Activity", desc: "Ranked by team average of Gram-negative Success Rate, with ties broken by MIC50 across Gram-negative strains." },
+  { icon: Plus, title: "Gram-Positive Activity", desc: "Ranked by team average of Gram-positive Success Rate, with ties broken by MIC50 across Gram-positive strains." },
+  { icon: Minus, title: "Gram-Negative Activity", desc: "Ranked by team average of Gram-negative Success Rate, with ties broken by MIC50 across Gram-negative strains." },
   { icon: ShieldAlert, title: "MDR ESKAPE Activity", desc: "Ranked by team average of MDR Success Rate against 8 multi-drug resistant ESKAPE isolates, with ties broken by MIC50." },
   { icon: Activity, title: "Optimal Selectivity", desc: "Ranked by team average of Safety Window (HC50 / MIC50). Peptides must meet the Potency Threshold in at least one strain to qualify." },
 ];

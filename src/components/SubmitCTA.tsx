@@ -14,7 +14,7 @@ const SubmitCTA = () => (
         </h2>
         <p className="text-muted-foreground max-w-xl mx-auto mb-10">
           Submit your generative model and get free wet-lab validation for your designed AMPs.
-          Submission deadline: <span className="text-primary font-semibold">August 2026</span>.
+          Submission deadline: <span className="text-primary font-semibold">August 15, 2026 (AOE)</span>.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
