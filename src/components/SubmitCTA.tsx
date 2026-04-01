@@ -19,7 +19,7 @@ const SubmitCTA = () => (
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <a
-            href="https://forms.google.com"
+            href="https://forms.gle/cgDqw7cZe49awwRv6"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center gap-2 font-semibold bg-primary text-primary-foreground px-8 py-3.5 rounded-lg text-base hover:bg-primary/90 transition-colors shadow-lg shadow-primary/20"
