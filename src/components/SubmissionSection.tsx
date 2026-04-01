@@ -90,7 +90,7 @@ const SubmissionSection = () => (
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
           {constraints.map((c) => (
             <div key={c} className="flex gap-3 text-sm text-surface-foreground">
-              <span className="text-primary">—</span>
+              <span className="text-primary">•</span>
               {c}
             </div>
           ))}
