@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Globe, ArrowUpRight, ArrowDownRight, ShieldAlert, Activity } from "lucide-react";
+import { Globe, Plus, Minus, ShieldAlert, Activity } from "lucide-react";
 
 const categories = [
   { icon: Globe, title: "Broad-Spectrum Activity", desc: "Ranked by team average of Overall Success Rate across all 20 strains, with ties broken by MIC90." },
