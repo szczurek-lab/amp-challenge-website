@@ -4,6 +4,8 @@ import { CheckCircle2 } from "lucide-react";
 const minimum = [
   "An abstract summarizing the method",
   "A generated peptide library of 50,000 designed AMPs for computational evaluation",
+  "A ranked candidate list of your top 100 AMPs with documentation of your selection and ranking procedure",
+  "A short summary describing training data, external databases used, and any manual intervention or computational filters applied",
 ];
 
 const full = [
