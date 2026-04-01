@@ -9,12 +9,12 @@ const steps = [
   {
     num: "02",
     title: "Computational Screening",
-    desc: "Libraries evaluated for diversity, novelty, and physicochemical properties using the seqme framework. Top 15 teams advance if capacity is exceeded.",
+    desc: "Libraries evaluated for diversity, novelty, and physicochemical properties using the seqme framework. Top 20 teams advance if capacity is exceeded.",
   },
   {
     num: "03",
     title: "Experimental Validation",
-    desc: "Peptides randomly sampled from your top 100 are synthesized and tested for MIC and HC50 by the de la Fuente group at UPenn.",
+    desc: "25 peptides randomly sampled from your top 100 are synthesized and tested for MIC and HC50 by the de la Fuente group at UPenn.",
   },
   {
     num: "04",

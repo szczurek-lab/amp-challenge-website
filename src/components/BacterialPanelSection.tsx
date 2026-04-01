@@ -2,18 +2,18 @@ import { motion } from "framer-motion";
 
 const gramNeg = [
   "A. baumannii ATCC 19606",
-  "A. baumannii BAA-1605 [MDR]",
+  "A. baumannii ATCC BAA-1605 (CGTPACCIMRA) [MDR]",
   "E. cloacae ATCC 13047",
   "E. coli ATCC 11775",
   "E. coli AIC221",
   "E. coli AIC222 (CRE) [MDR]",
-  "E. coli BAA-3170 (CRE) [MDR]",
+  "E. coli ATCC BAA-3170 (CRE) [MDR]",
   "E. coli K-12 BW25113",
   "K. pneumoniae ATCC 13883",
-  "K. pneumoniae BAA-2342 [MDR]",
+  "K. pneumoniae ATCC BAA-2342 (EIRK) [MDR]",
   "P. aeruginosa PAO1",
   "P. aeruginosa PA14",
-  "P. aeruginosa BAA-3197 [MDR]",
+  "P. aeruginosa ATCC BAA-3197 (FBCRP) [MDR]",
   "S. enterica ATCC 9150",
   "S. enterica Typhimurium ATCC 700720",
 ];
@@ -23,7 +23,7 @@ const gramPos = [
   "E. faecalis ATCC 700802 (VRE) [MDR]",
   "E. faecium ATCC 700221 (VRE) [MDR]",
   "S. aureus ATCC 12600",
-  "S. aureus BAA-1556 (MRSA) [MDR]",
+  "S. aureus ATCC BAA-1556 (MRSA) [MDR]",
 ];
 
 const BacterialPanelSection = () => (

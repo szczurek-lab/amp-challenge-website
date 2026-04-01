@@ -3,25 +3,24 @@ import { CheckCircle2 } from "lucide-react";
 
 const minimum = [
   "An abstract summarizing the method",
-  "50,000 designed AMP sequences for computational evaluation",
-  "Ranked top-100 candidate list with selection documentation",
-  "Training data summary and disclosure of external databases",
+  "A generated peptide library of 50,000 designed AMPs for computational evaluation",
 ];
 
 const full = [
-  "Public GitHub repository with trained weights, inference code, and docs",
-  "Permissive OSI-approved license (MIT, BSD-3, Apache 2.0)",
-  "Dockerfile for self-contained environment",
-  "Single entry-point script producing identical output with fixed seed",
-  "Full training data disclosure and release",
+  "A ranked candidate list of your top 100 AMPs with documentation of your selection and ranking procedure",
+  "A short summary describing training data, external databases used, and any manual intervention or computational filters applied",
+  "A public GitHub repository following the provided template with trained model weights, inference code, and detailed usage documentation",
+  "A permissive OSI-approved license (MIT, BSD-3-Clause, or Apache 2.0)",
+  "A fixed default random seed such that running the generation script twice produces identical output",
+  "Full training data disclosure — any proprietary or non-public data must be released publicly under a permissive license",
 ];
 
 const constraints = [
   "20 standard proteinogenic amino acids only",
   "Length: 8–50 residues",
   "Linear peptides only",
-  "No terminal modifications (including amidation)",
-  "No non-canonical AAs, stapled peptides, or specialized chemistries",
+  "No terminal modifications (free termini)",
+  "No non-canonical AAs, stapled peptides, lipidated, glycosylated, PEGylated, or dendrimeric constructs",
 ];
 
 const SubmissionSection = () => (
@@ -36,7 +35,7 @@ const SubmissionSection = () => (
         Submission Requirements
       </motion.h2>
       <p className="text-center text-muted-foreground mb-16 max-w-2xl mx-auto">
-        Any generative approach is welcome: language models, diffusion, VAEs, GFlowNets, RL, Bayesian optimization, evolutionary methods, or hybrids.
+        Any generative approach is welcome: language models, diffusion models, VAEs, GFlowNets, RL, Bayesian optimization, evolutionary methods, or hybrids.
       </p>
 
       <div className="grid md:grid-cols-2 gap-6 mb-8">
