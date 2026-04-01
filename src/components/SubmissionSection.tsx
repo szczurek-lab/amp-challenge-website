@@ -9,12 +9,10 @@ const minimum = [
 ];
 
 const full = [
-  "A ranked candidate list of your top 100 AMPs with documentation of your selection and ranking procedure",
-  "A short summary describing training data, external databases used, and any manual intervention or computational filters applied",
   "A public GitHub repository following the provided template with trained model weights, inference code, and detailed usage documentation",
   "A permissive OSI-approved license (MIT, BSD-3-Clause, or Apache 2.0)",
   "A fixed default random seed such that running the generation script twice produces identical output",
-  "Full training data disclosure — any proprietary or non-public data must be released publicly under a permissive license",
+  "Full training data disclosure: any proprietary or non-public data must be released publicly under a permissive license",
 ];
 
 const constraints = [
