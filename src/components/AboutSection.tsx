@@ -5,7 +5,7 @@ const highlights = [
   {
     icon: FlaskConical,
     title: "Free Wet-Lab Validation",
-    desc: "Your peptides are synthesized and tested at no cost — MIC assays against 20 bacterial strains by the de la Fuente lab at UPenn.",
+    desc: "25 peptides per team are synthesized and tested at no cost — MIC assays against 20 bacterial strains and HC50 measurements by the de la Fuente lab at UPenn.",
   },
   {
     icon: ShieldCheck,
@@ -33,7 +33,7 @@ const AboutSection = () => (
           Why AMP Challenge?
         </h2>
         <p className="text-surface-foreground leading-relaxed">
-          Antimicrobial resistance is one of healthcare's most expensive crises.
+          Antimicrobial resistance is one of healthcare's most pressing crises.
           AMPs offer a promising new class of therapeutics, and generative AI is
           increasingly used to design them — but which approaches actually work?
           Without controlled comparisons under matched conditions, it's

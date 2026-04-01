@@ -2,11 +2,11 @@ import { motion } from "framer-motion";
 import { Globe, ArrowUpRight, ArrowDownRight, ShieldAlert, Activity } from "lucide-react";
 
 const categories = [
-  { icon: Globe, title: "Broad-Spectrum Activity", desc: "Ranked by team average of Overall Success Rate × Geometric Mean RP across all 20 strains." },
-  { icon: ArrowUpRight, title: "Gram-Positive Activity", desc: "Success Rate × Geometric Mean RP across the 5 Gram-positive strains." },
-  { icon: ArrowDownRight, title: "Gram-Negative Activity", desc: "Success Rate × Geometric Mean RP across the 15 Gram-negative strains." },
-  { icon: ShieldAlert, title: "MDR ESKAPE Activity", desc: "Success Rate × Geometric Mean RP against 8 multi-drug resistant ESKAPE isolates." },
-  { icon: Activity, title: "Optimal Selectivity", desc: "Therapeutic Index (HC50 / Geometric Mean MIC) weighted by Success Rate for active peptides." },
+  { icon: Globe, title: "Broad-Spectrum Activity", desc: "Ranked by team average of Overall Success Rate across all 20 strains, with ties broken by MIC90." },
+  { icon: ArrowUpRight, title: "Gram-Positive Activity", desc: "Ranked by team average of Gram-positive Success Rate, with ties broken by MIC50 across Gram-positive strains." },
+  { icon: ArrowDownRight, title: "Gram-Negative Activity", desc: "Ranked by team average of Gram-negative Success Rate, with ties broken by MIC50 across Gram-negative strains." },
+  { icon: ShieldAlert, title: "MDR ESKAPE Activity", desc: "Ranked by team average of MDR Success Rate against 8 multi-drug resistant ESKAPE isolates, with ties broken by MIC50." },
+  { icon: Activity, title: "Optimal Selectivity", desc: "Ranked by team average of Safety Window (HC50 / MIC50). Peptides must meet the Potency Threshold in at least one strain to qualify." },
 ];
 
 const CategoriesSection = () => (
@@ -21,7 +21,7 @@ const CategoriesSection = () => (
         Competition Categories
       </motion.h2>
       <p className="text-center text-muted-foreground mb-16 max-w-2xl mx-auto">
-        Teams compete across five categories. A peptide is classified as active if its Relative Potency RP ≥ 0.25.
+        Teams compete across five categories. A peptide is classified as active if its MIC ≤ 16 µM (Potency Threshold).
       </p>
 
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
