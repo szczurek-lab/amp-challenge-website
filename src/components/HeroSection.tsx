@@ -25,8 +25,6 @@ const HeroSection = () => (
         </p>
         <h1 className="font-display font-bold text-5xl md:text-7xl lg:text-8xl tracking-tight leading-[0.95] mb-6 text-glow">
           AMP Challenge
-          <br />
-          <span className="text-primary">2027</span>
         </h1>
         <p className="text-lg md:text-xl max-w-2xl mx-auto text-surface-foreground leading-relaxed mb-10">
           The first standardized, head-to-head benchmarking competition for

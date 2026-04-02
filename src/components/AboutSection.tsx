@@ -71,7 +71,7 @@ const AboutSection = () => (
         <p className="text-surface-foreground leading-relaxed">
           As a result, it is frequently unclear whether an apparent success
           reflects the quality of the model itself or the quality of the manual
-          selection process. AMP Challenge 2027 addresses this through a common
+          selection process. AMP Challenge addresses this through a common
           benchmark design, a shared experimental pipeline, and transparent
           reporting requirements.
         </p>
