@@ -2,11 +2,11 @@ import { motion } from "framer-motion";
 import { Globe, Plus, Minus, ShieldAlert, Activity } from "lucide-react";
 
 const categories = [
-  { icon: Globe, title: "Broad-Spectrum Activity", desc: "Ranked by team average of Overall Success Rate across all 20 strains, with ties broken by MIC90." },
-  { icon: Plus, title: "Gram-Positive Activity", desc: "Ranked by team average of Gram-positive Success Rate, with ties broken by MIC50 across Gram-positive strains." },
-  { icon: Minus, title: "Gram-Negative Activity", desc: "Ranked by team average of Gram-negative Success Rate, with ties broken by MIC50 across Gram-negative strains." },
-  { icon: ShieldAlert, title: "MDR ESKAPE Activity", desc: "Ranked by team average of MDR Success Rate against 8 multi-drug resistant ESKAPE isolates, with ties broken by MIC50." },
-  { icon: Activity, title: "Optimal Selectivity", desc: "Ranked by team average of Safety Window (HC50 / MIC50). Peptides must meet the Potency Threshold in at least one strain to qualify." },
+  { icon: Globe, title: "Broad-Spectrum Activity", desc: "Ranked by team average of Overall Success Rate across all 20 strains. Ties broken by MIC90 across all 20 strains." },
+  { icon: Plus, title: "Gram-Positive Activity", desc: "Ranked by team average of Gram-positive Success Rate. Ties broken by MIC50 across Gram-positive strains." },
+  { icon: Minus, title: "Gram-Negative Activity", desc: "Ranked by team average of Gram-negative Success Rate. Ties broken by MIC50 across Gram-negative strains." },
+  { icon: ShieldAlert, title: "MDR ESKAPE Activity", desc: "Ranked by team average of MDR Success Rate against 8 multi-drug resistant ESKAPE isolates. Ties broken by MIC50 across MDR ESKAPE strains." },
+  { icon: Activity, title: "Optimal Selectivity", desc: "Ranked by team average of Safety Window (HC50 / MIC50). A peptide must meet the Potency Threshold (MIC \u2264 16 \u00b5M) in at least one tested strain to be included. Completely inactive sequences are excluded. Tied inequalities resulting from non-hemolytic limits (>128 \u00b5M) are broken by the team's lowest MIC50 across all tested strains." },
 ];
 
 const CategoriesSection = () => (
@@ -18,11 +18,20 @@ const CategoriesSection = () => (
         viewport={{ once: true }}
         className="font-display font-bold text-3xl md:text-4xl text-center mb-4"
       >
-        Competition Categories
+        Evaluation Framework
       </motion.h2>
       <p className="text-center text-muted-foreground mb-16 max-w-2xl mx-auto">
-        Teams compete across five categories. A peptide is classified as active if its MIC ≤ 16 µM (Potency Threshold).
+        Teams are ranked based on the arithmetic mean of individual peptide metrics across their randomly selected evaluation batch.
       </p>
+
+      {/* Categories */}
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+      >
+        <h3 className="font-display font-semibold text-lg mb-5 text-center">Competition Categories</h3>
+      </motion.div>
 
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
         {categories.map((c, i) => (

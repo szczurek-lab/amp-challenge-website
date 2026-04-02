@@ -1,12 +1,14 @@
 import Navbar from "@/components/Navbar";
 import HeroSection from "@/components/HeroSection";
 import AboutSection from "@/components/AboutSection";
-import HowItWorksSection from "@/components/HowItWorksSection";
-import CategoriesSection from "@/components/CategoriesSection";
 import TimelineSection from "@/components/TimelineSection";
+import RecognitionSection from "@/components/RecognitionSection";
+import HowItWorksSection from "@/components/HowItWorksSection";
 import SubmissionSection from "@/components/SubmissionSection";
+import CategoriesSection from "@/components/CategoriesSection";
 import BacterialPanelSection from "@/components/BacterialPanelSection";
 import OrganizersSection from "@/components/OrganizersSection";
+import FAQSection from "@/components/FAQSection";
 import SubmitCTA from "@/components/SubmitCTA";
 import Footer from "@/components/Footer";
 
@@ -15,12 +17,14 @@ const Index = () => (
     <Navbar />
     <HeroSection />
     <AboutSection />
-    <HowItWorksSection />
-    <CategoriesSection />
     <TimelineSection />
+    <RecognitionSection />
+    <HowItWorksSection />
     <SubmissionSection />
+    <CategoriesSection />
     <BacterialPanelSection />
     <OrganizersSection />
+    <FAQSection />
     <SubmitCTA />
     <Footer />
   </div>

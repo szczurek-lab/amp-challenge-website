@@ -3,11 +3,14 @@ import { Menu, X } from "lucide-react";
 
 const navLinks = [
   { label: "About", href: "#about" },
-  { label: "How It Works", href: "#how-it-works" },
-  { label: "Categories", href: "#categories" },
   { label: "Timeline", href: "#timeline" },
+  { label: "Recognition", href: "#recognition" },
+  { label: "How It Works", href: "#how-it-works" },
   { label: "Submission", href: "#submission" },
+  { label: "Evaluation", href: "#categories" },
+  { label: "Bacterial Panel", href: "#bacterial-panel" },
   { label: "Organizers", href: "#organizers" },
+  { label: "FAQ", href: "#faq" },
 ];
 
 const Navbar = () => {

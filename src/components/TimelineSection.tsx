@@ -2,10 +2,11 @@ import { motion } from "framer-motion";
 
 const milestones = [
   { date: "April 2026", label: "Competition call opens" },
-  { date: "August 2026", label: "Submission deadline & Phase 1 computational evaluation" },
-  { date: "Sep 2026 – Feb 2027", label: "Peptide synthesis window" },
-  { date: "Mar – Apr 2027", label: "Experimental validation (MIC / HC50)" },
-  { date: "Late April 2027", label: "Results at GEM Workshop, ICLR 2027, Singapore" },
+  { date: "September 1, 2026 AOE", label: "Submission deadline" },
+  { date: "September 2026", label: "Phase 1 computational evaluation" },
+  { date: "Oct 2026 to Feb 2027", label: "Peptide synthesis window" },
+  { date: "Mar to Apr 2027", label: "Experimental validation (MIC / HC50) and final data analysis" },
+  { date: "TBA", label: "Results shared at dedicated events" },
   { date: "Late 2027", label: "Benchmarking paper submission" },
 ];
 
