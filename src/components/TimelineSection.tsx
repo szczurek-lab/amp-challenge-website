@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 const milestones = [
   { date: "April 2026", label: "Competition call opens" },
-  { date: "September 1, 2026 AOE", label: "Submission deadline" },
+  { date: "October 1, 2026 AOE", label: "Submission deadline" },
   { date: "September 2026", label: "Phase 1 computational evaluation" },
   { date: "Oct 2026 to Feb 2027", label: "Peptide synthesis window" },
   { date: "Mar to Apr 2027", label: "Experimental validation (MIC / HC50) and final data analysis" },

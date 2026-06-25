@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { Award } from "lucide-react";
 import heroBg from "@/assets/hero-bg.jpg";
 
 const HeroSection = () => (
@@ -23,6 +24,12 @@ const HeroSection = () => (
         <p className="text-primary font-mono text-sm tracking-widest uppercase mb-4">
           International Competition
         </p>
+        <div className="mb-8">
+          <span className="inline-flex items-center gap-2 rounded-full bg-primary px-5 py-2.5 text-sm md:text-base font-semibold text-primary-foreground shadow-lg shadow-primary/30 ring-1 ring-primary/50">
+            <Award className="h-5 w-5" />
+            Official NeurIPS 2026 Competition Track
+          </span>
+        </div>
         <h1 className="font-display font-bold text-5xl md:text-7xl lg:text-8xl tracking-tight leading-[0.95] mb-6 text-glow">
           AMP Challenge
         </h1>
