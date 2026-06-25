@@ -6,7 +6,7 @@ const milestones = [
   { date: "September 2026", label: "Phase 1 computational evaluation" },
   { date: "Oct 2026 to Feb 2027", label: "Peptide synthesis window" },
   { date: "Mar to Apr 2027", label: "Experimental validation (MIC / HC50) and final data analysis" },
-  { date: "TBA", label: "Results shared at dedicated events" },
+  { date: "December 2026", label: "Results shared at NeurIPS dedicated event" },
   { date: "Late 2027", label: "Benchmarking paper submission" },
 ];
 
