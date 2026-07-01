@@ -3,10 +3,10 @@ import { motion } from "framer-motion";
 const milestones = [
   { date: "April 2026", label: "Competition call opens" },
   { date: "October 1, 2026 AOE", label: "Submission deadline" },
-  { date: "September 2026", label: "Phase 1 computational evaluation" },
+  { date: "October 2026", label: "Phase 1 computational evaluation" },
+  { date: "6-12 December 2026", label: "AMP Challenge at NeurIPS Competition Track" },
   { date: "Oct 2026 to Feb 2027", label: "Peptide synthesis window" },
   { date: "Mar to Apr 2027", label: "Experimental validation (MIC / HC50) and final data analysis" },
-  { date: "December 2026", label: "Results shared at NeurIPS dedicated event" },
   { date: "Late 2027", label: "Benchmarking paper submission" },
 ];
 
